@@ -1,0 +1,55 @@
+*{
+  background-color:azure;
+  margin: 0;
+  padding: 0;
+}
+.container{
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+  margin-top: 100px;
+  display: flex;
+  
+}
+.calculator{
+  padding: 20px;
+  border-radius: 10px;
+  color: rgb(129, 175, 56);
+  border: 2px solid black;
+  background-color: grey ;
+}
+form input{
+  border: 2px solid burlywood;
+  height: 30px;
+  width: 30px;
+  margin: 2px;
+  border-radius: 10px;
+  font-weight: bolder;
+  color: white;
+  cursor: pointer;
+}
+form input[type="button"]:hover{
+  background-color: rgb(146, 122, 122);
+}
+.container .display{
+  display: flex;
+  justify-content: flex-end;
+  
+}
+.container .display input{
+  color: white;
+}
+.container input{
+  flex-direction: row;
+  flex: 1;
+  text-align:center;
+}
+#equal{
+  width: 63px;
+}
+.calculator div{
+  background: black;
+}
+input{
+  background: rgb(75, 64, 64);
+}
